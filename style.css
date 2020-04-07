@@ -81,6 +81,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
+    content: "";
     background-size: 2px 2px;
     position: absolute;
     top: 0;
@@ -810,6 +811,14 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+
+.bg-dots-bg {
+    background-image: url("img/dots-bg.png");
+}
+
+.bg-lines-h2-bg {
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
