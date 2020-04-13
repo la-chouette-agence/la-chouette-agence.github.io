@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+    font-weight: 600;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -467,7 +471,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 25px!important;
 }
 
 .icon-lg {
@@ -631,7 +635,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -773,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ff9563!important;
 }
 
 .btn-atomic-tangerine {
@@ -893,7 +896,6 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
     h3,
     h4,
     h5,
