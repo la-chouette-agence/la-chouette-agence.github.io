@@ -7,6 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bgc {
+    background-color: #ff7a3b !important;
+}
+
+.partenaire {
+    display: flex;
+    justify-content: center;
+    
+}
+
 h2 {
     font-weight: 600;
 }
