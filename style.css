@@ -1008,6 +1008,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .mail {
+        font-size: 1.3em
+    }
 }
 
 @media (max-width: 400px) {
@@ -1015,9 +1018,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .mail {
-        font-size: 1.3em
-    }
+    
 }
 
 @media (max-width: 767px) {
