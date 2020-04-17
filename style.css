@@ -289,7 +289,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 2.5em;
 }
 
 .navbar {
@@ -300,8 +300,6 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -330,7 +328,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.5em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -481,11 +479,11 @@ button {
 }
 
 .icon-md {
-    font-size: 25px!important;
+    font-size: 2em!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 4em!important;
 }
 
 .sm-shadow {
@@ -519,7 +517,7 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
     opacity: 0;
     z-index: 500;
@@ -531,7 +529,6 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
     opacity: 1;
 }
 
@@ -588,7 +585,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
 }
 
 .close-lightbox {
@@ -663,21 +659,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
+    font-size: 2.6em;
 }
 
 p {
@@ -694,7 +676,6 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
     font-family: "Open Sans";
 }
 
@@ -703,7 +684,6 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
     font-weight: 700;
 }
 
@@ -713,12 +693,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.6em;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.3em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
