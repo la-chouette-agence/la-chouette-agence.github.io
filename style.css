@@ -7,6 +7,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bgc {
+    background-color: #ff7a3b !important;
+}
+
+.partenaire {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap    
+}
+
+h2 {
+    font-weight: 600;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -16,15 +30,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -284,7 +289,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 2.5em;
 }
 
 .navbar {
@@ -295,8 +300,6 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -325,7 +328,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.5em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -476,11 +479,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 2em!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 4em!important;
 }
 
 .sm-shadow {
@@ -514,7 +517,7 @@ button {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
     opacity: 0;
     z-index: 500;
@@ -526,7 +529,6 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
     opacity: 1;
 }
 
@@ -583,7 +585,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
 }
 
 .close-lightbox {
@@ -640,7 +641,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -659,25 +659,15 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
-}
-
-.hero-bloc-text-sub {
-    font-size: 36px;
-}
-
-.statement-bloc-text {
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
+    font-size: 2.6em;
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.2em;
+}
+.description {
+    font-size: 1.5em;
+    display: inline;
 }
 
 .tight-width-whitespace {
@@ -686,7 +676,6 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
     font-family: "Open Sans";
 }
 
@@ -695,7 +684,6 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
     font-weight: 700;
 }
 
@@ -705,12 +693,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.6em;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.3em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -738,8 +726,12 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
+.black {
+    color: #000!important;
+}
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -771,16 +763,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ff9563;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ff9563!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #372C2C!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -818,11 +810,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/banniere-webdesigner.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/maquette-graphique-retouche.webp");
 }
 
 @media (max-width: 1024px) {
@@ -848,13 +840,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +864,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +872,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -895,7 +881,6 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
     h3,
     h4,
     h5,
@@ -1013,9 +998,6 @@ h4 {
     form {
         padding: 5px;
     }
-    .close-lightbox {
-        display: inline-block;
-    }
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
@@ -1026,6 +1008,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .mail {
+        font-size: 1.3em
+    }
 }
 
 @media (max-width: 400px) {
@@ -1033,6 +1018,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
 
 @media (max-width: 767px) {
