@@ -1,4 +1,0 @@
-# Redirect www to non-www
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^la-chouette-agence.github.\io [NC]
-RewriteRule ^(.*)$ https://www.la-chouette-agence.github.io$1 [L,R=301]
